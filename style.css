@@ -1,0 +1,138 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@500&family=Open+Sans:wght@500;600&family=Oswald:wght@400;500&display=swap');
+/* fonts */
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+#section {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 9vh;
+    background-color: #C7C7C6;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    width: 146px;
+    height: 74px;
+    margin-top: 5px;
+    margin-left: 15px;
+
+}
+
+.hamburger-menu {
+    display: block;
+    width: 45px;
+    background-color: red;
+    height: 42px;
+    display: none;
+}
+
+.menu {
+    height: 84px;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    user-select: none;
+}
+
+.menu_ul li {
+    display: inline-block;
+    margin-left: 1px;
+    text-align: center;
+    line-height: 53px;
+}
+
+.menu_ul a{
+    font-size: 2.0em;
+    color: #000;
+    display: inline-block;
+    font-weight: 500;
+    transition: 900ms all;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    padding: 2px;
+    width: 100px;
+    height: 60px;
+    background-image: linear-gradient(#27282218, #27282218, #27282218,#92996c18,#27282218,#27282218,#27282218,#27282218, blue);
+}
+
+.menu_ul a:hover {
+    background-image: linear-gradient(#27282218, #27282218, #27282218,#92996c18,#27282218,#27282218,#27282218, red);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 91vh;
+    position: relative;
+    background-color:#27282218 ;
+}
+
+.main {
+    width: 56%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-70%);
+    border: 3px solid greenyellow;
+    height: 65vh;
+}
+
+.heading-text {
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-text {
+    padding: 10px;
+    text-align: center;
+    margin: 60px auto 0 auto;
+    width: 70%;
+    background-color: rgb(62, 173, 90);
+}
+
+.main-text p {
+    font-size: 22px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.start-button {
+    display: block;
+    background-color: transparent;
+    width: 35%;
+    color: black;
+    line-height: 40px;
+    font-size: 2rem;
+    box-shadow:2px 2px 40px 3px rgba(156, 146, 148, 0.192);
+    border-radius: 30px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    margin: 60px auto 0 auto;
+    transition: 600ms all;
+    height: 45px;
+    border: 1px solid springgreen;
+}
+
+.start-button:hover {
+    border: 1px solid rgb(47, 235, 141);
+    box-shadow:2px 2px 40px 1px rgba(2, 245, 22, 0.609);
+}
